@@ -17,7 +17,7 @@ alias gs='git status'
 # ----------------------------
 if [ -e /etc/os-release ]; then
 	if [ `cat /etc/os-release | grep -i 'NAME="Ubuntu"'` ]; then
-		alias apti='apt-get install'
+		alias apti='sudo apt-get install'
 		alias apts='apt-cache search'
 	fi
 fi
