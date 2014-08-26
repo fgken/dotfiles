@@ -15,6 +15,7 @@ alias gs='git status'
 
 # ---  ---
 alias c='clear'
+alias grep='ack-grep'
 
 # ----------------------------
 # --- For Ubuntu --
