@@ -18,6 +18,12 @@ alias gs='git status'
 alias c='clear'
 alias grep='ack-grep'
 
+# --- ls ---
+alias la='ls -A'
+alias ll='ls -alF'
+alias l='ls -CF'
+alias s='ls'
+
 # ----------------------------
 # --- For Ubuntu --
 # ----------------------------
