@@ -11,6 +11,7 @@ alias gd='git diff'
 alias gl='git log'
 alias gp='git push'
 alias gpl='git pull'
+alias gr='git rm'
 alias gs='git status'
 
 # ---  ---

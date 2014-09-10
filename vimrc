@@ -23,7 +23,7 @@ NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'Shougo/neocomplcache.vim'
 NeoBundle 'Rip-Rip/clang_complete'
 NeoBundle 'grep.vim'
-NeoBundle 'scrooloose/syntastic'
+"NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'Valloric/YouCompleteMe'
 
 call neobundle#end()
