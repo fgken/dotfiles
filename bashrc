@@ -17,6 +17,7 @@ alias gs='git status'
 # ---  ---
 alias c='clear'
 alias grep='ack-grep'
+alias p='ps aux'
 
 # --- ls ---
 alias la='ls -A'
