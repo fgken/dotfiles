@@ -20,6 +20,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/vimshell.vim'
+NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'Shougo/neocomplcache.vim'
 NeoBundle 'Rip-Rip/clang_complete'
 NeoBundle 'grep.vim'
