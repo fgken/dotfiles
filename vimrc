@@ -136,7 +136,7 @@ if !exists("g:neocomplcache_force_omni_patterns")
 endif
 
 let g:neocomplcache_force_omni_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
-let g:neocomplcache_force_omni_patterns.c = '[:alpha:]*[^(]'
+"let g:neocomplcache_force_omni_patterns.c = '[:alpha:]*[^(]'
 "let g:neocomplcache_force_omni_patterns.c = '[^.[:digit:] *\t]\%(\[:alpha:]*\)'
 
 
