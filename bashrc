@@ -28,6 +28,7 @@ alias p='ps aux'
 
 # --- ls ---
 alias la='ls -A'
+alias lah='ls -lah'
 alias ll='ls -alF'
 alias l='ls -CF'
 alias s='ls'
