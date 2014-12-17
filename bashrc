@@ -37,7 +37,7 @@ alias s='ls'
 # --- For Ubuntu --
 # ----------------------------
 if [ -e /etc/os-release ]; then
-	if [ `grep -i 'NAME="Ubuntu"' /etc/os-release` ]; then
+	if [ `\grep -i 'NAME="Ubuntu"' /etc/os-release` ]; then
 		alias apti='sudo apt-get install'
 		alias apts='apt-cache search'
 	fi
