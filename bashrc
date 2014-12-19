@@ -35,6 +35,7 @@ alias p='ps aux'
 alias t='tmux'
 alias tls='tmux ls'
 alias ta='tmux attach -t'
+alias v='vim'
 
 # ----------------------------
 # --- For Ubuntu --
