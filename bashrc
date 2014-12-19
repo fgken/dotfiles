@@ -33,7 +33,7 @@ alias c='clear'
 alias grep='ack-grep'
 alias p='ps aux'
 alias t='tmux'
-alias tl='tmux ls'
+alias tls='tmux ls'
 alias ta='tmux attach -t'
 
 # ----------------------------
