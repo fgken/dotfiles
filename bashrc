@@ -30,7 +30,7 @@ alias s='ls'
 
 # --- etc. ---
 alias c='clear'
-alias grep='ack-grep'
+alias grep='ack'
 alias p='ps aux'
 alias t='tmux'
 alias tls='tmux ls'
@@ -44,6 +44,7 @@ if [ -e /etc/os-release ]; then
 	if [ `\grep -i 'NAME="Ubuntu"' /etc/os-release` ]; then
 		alias apti='sudo apt-get install'
 		alias apts='apt-cache search'
+		alias grep='ack-grep'
 	fi
 fi
 
