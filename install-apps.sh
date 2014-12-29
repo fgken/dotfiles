@@ -7,3 +7,7 @@ echo "=== Install Applications ==="
 echo $APPS | sed -e "s/ /\n/g"
 echo "============================"
 sudo apt-get install $APPS
+
+
+echo "=== Setting ==="
+git config --global color.ui auto
