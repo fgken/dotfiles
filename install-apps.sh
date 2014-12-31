@@ -1,4 +1,4 @@
-APPS="vim tmux"
+APPS="vim tmux curl"
 APPS=$APPS" ack-grep"
 APPS=$APPS" chromium-browser"
 APPS=$APPS" ibus-mozc"
