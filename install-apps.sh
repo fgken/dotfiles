@@ -11,3 +11,9 @@ sudo apt-get install $APPS
 
 echo "=== Setting ==="
 git config --global color.ui auto
+
+# Memo
+# Sublime 3
+# - ConvertToUTF8
+# - IMESupport(For Win) or SublimeMozcInput(For Linux)
+

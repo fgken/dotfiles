@@ -22,6 +22,7 @@ alias tig='tig'
 alias gr='go run'
 
 # --- ls ---
+alias ls='ls --color=auto'
 alias la='ls -A'
 alias lah='ls -lah'
 alias ll='ls -alF'
