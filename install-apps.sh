@@ -17,3 +17,5 @@ git config --global color.ui auto
 # - ConvertToUTF8
 # - IMESupport(For Win) or SublimeMozcInput(For Linux)
 
+# For buildig qemu
+# apti zlib1g-dev libglib2.0-dev
