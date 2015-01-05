@@ -45,6 +45,8 @@ if [ -e /etc/os-release ]; then
 	if [ `\grep -i 'NAME="Ubuntu"' /etc/os-release` ]; then
 		alias apti='sudo apt-get install'
 		alias apts='apt-cache search'
+		alias aptu='sudo apt-get update'
+		alias aptr='sudo apt-get remove'
 		alias grep='ack-grep'
 	fi
 fi
