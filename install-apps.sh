@@ -19,3 +19,5 @@ git config --global color.ui auto
 
 # For buildig qemu
 # apti zlib1g-dev libglib2.0-dev
+
+# build-essential
