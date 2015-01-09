@@ -23,3 +23,5 @@ git config --global color.ui auto
 # build-essential
 # nasm
 # git, tig
+
+# ruby
