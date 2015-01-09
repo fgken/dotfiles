@@ -2,6 +2,7 @@ APPS="vim tmux curl sl tree"
 APPS=$APPS" ack-grep"
 APPS=$APPS" chromium-browser"
 APPS=$APPS" ibus-mozc"
+APPS=$APPS" xsel"		# For copy command by tmux
 
 echo "=== Install Applications ==="
 echo $APPS | sed -e "s/ /\n/g"

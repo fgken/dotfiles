@@ -11,6 +11,9 @@ fi
 echo "Replace .vimrc"
 ln -sf $path/vimrc ~/.vimrc
 
+echo "Replace .tmux.conf"
+ln -sf $path/tmux.conf ~/.tmux.conf
+
 echo "Add my .bashrc"
 ln -sf $path/bashrc ~/.bashrc_fgken
 FGKENRC=". ~/.bashrc_fgken"
