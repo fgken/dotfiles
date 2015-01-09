@@ -15,6 +15,7 @@ alias gp='git push'
 alias gpl='git pull'
 alias grm='git rm'
 alias gs='git status'
+alias gt='git tag'
 alias gtree="git log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'"
 alias tig='tig'
 
