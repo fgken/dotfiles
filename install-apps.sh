@@ -21,3 +21,5 @@ git config --global color.ui auto
 # apti zlib1g-dev libglib2.0-dev
 
 # build-essential
+# nasm
+# git, tig
