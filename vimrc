@@ -6,6 +6,10 @@ set shiftwidth=4
 set incsearch
 set hlsearch
 
+" Disable auto comment insertion
+autocmd BufEnter * setlocal formatoptions-=r
+autocmd BufEnter * setlocal formatoptions-=o
+
 " ================================================
 " --- NeoBundle settings---
 " ================================================
