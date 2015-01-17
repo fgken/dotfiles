@@ -42,8 +42,19 @@ git config --global color.ui auto
 
 # Memo
 # Sublime 3
-# - ConvertToUTF8
 # - IMESupport(For Win) or SublimeMozcInput(For Linux)
+#
+#	"installed_packages":
+#	[
+#		"Codecs33",
+#		"ConvertToUTF8",
+#		"Package Control",
+#		"SublimeMozcInput"
+#	],
+#	"repositories":
+#	[
+#		"https://github.com/yasuyuky/SublimeMozcInput"
+#	]
 
 # For buildig qemu
 # apti zlib1g-dev libglib2.0-dev
