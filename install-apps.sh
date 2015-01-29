@@ -62,3 +62,4 @@ git config --global color.ui auto
 # build-essential
 # nasm
 
+# haskell-platform
