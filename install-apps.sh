@@ -63,3 +63,5 @@ git config --global color.ui auto
 # nasm
 
 # haskell-platform
+
+# gdb
