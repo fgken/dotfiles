@@ -31,6 +31,9 @@ alias ll='ls -alF'
 alias l='ls -CF'
 alias s='ls'
 
+# --- tree ---
+alias tree='tree -C'
+
 # --- etc. ---
 alias c='clear'
 alias grep='ack'
