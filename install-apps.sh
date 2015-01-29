@@ -2,7 +2,7 @@
 # --- Install applications ---
 # ----------------------------
 INSTALL_CMD="yum install"
-APPS_CUI="vim tmux curl sl tree xsel ack git tig ruby"
+APPS_CUI="vim tmux wget curl sl tree xsel ack git tig ruby"
 #APPS_GUI="chromium-browser ibus-mozc"
 
 # xsel: for copy command by tmux
