@@ -45,11 +45,11 @@ alias v='vim'
 # --- For RHEL-based ---
 # ----------------------------
 if [ -e /etc/redhat-release ]; then
-	alias yui='yum install'
-	alias yus='yum search'
-	alias yuu='yum update'
-	alias yup='yum provides'
-	alias yue='yum erase'
+	alias yi='yum install'
+	alias ys='yum search'
+	alias yu='yum update'
+	alias yp='yum provides'
+	alias ye='yum erase'
 fi
 
 # ----------------------------
