@@ -40,6 +40,18 @@ alias tls='tmux ls'
 alias ta='tmux attach -t'
 alias v='vim'
 
+
+# ----------------------------
+# --- For RHEL-based ---
+# ----------------------------
+if [ -e /etc/redhat-release ]; then
+	alias yi='yum install'
+	alias ys='yum search'
+	alias yu='yum update'
+	alias yp='yum provides'
+	alias ye='yum erase'
+fi
+
 # ----------------------------
 # --- For Ubuntu --
 # ----------------------------
