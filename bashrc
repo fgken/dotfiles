@@ -59,9 +59,11 @@ alias t='tmux'
 alias tls='tmux ls'
 alias ta='tmux attach -t'
 alias v='vim'
+__FGKEN_SEPARATE_CNT__=0
 alias n='echo -e "--- END ---------------------------------------";
 		 echo -e "\n\n\n\n\n\n\n\n";
-		 echo -e "=== BEGIN =====================================";'
+		 echo -e "=== BEGIN[$__FGKEN_SEPARATE_CNT__] =====================================";
+		 __FGKEN_SEPARATE_CNT__=`expr $__FGKEN_SEPARATE_CNT__ + 1`;'
 
 
 # ----------------------------
