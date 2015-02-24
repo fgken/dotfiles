@@ -59,6 +59,9 @@ alias t='tmux'
 alias tls='tmux ls'
 alias ta='tmux attach -t'
 alias v='vim'
+alias n='echo -e "--- END ---------------------------------------";
+		 echo -e "\n\n\n\n\n\n\n\n";
+		 echo -e "=== BEGIN =====================================";'
 
 
 # ----------------------------
