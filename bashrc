@@ -43,6 +43,8 @@ alias cs='cds'
 cds
 alias cdl='\cd __FGKEN_SAVE_CD__'
 alias cd='\cd __FGKEN_SAVE_CD__'
+# Todo: impl cds1, cds2, ...
+# Todo: impl 'cdlist' to list cds1, cd2, ...
 
 # --- etc. ---
 alias cl='clear'
