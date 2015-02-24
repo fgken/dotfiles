@@ -39,10 +39,10 @@ alias c='\cd'
 alias up='\cd ..'
 alias u='up'
 alias home='\cd ~'
-alias cdsave='__FGKEN_SAVE_CD__=~'
+alias cdsave='__FGKEN_SAVE_CD__=`pwd`'
 alias cds='cdsave'
 alias cs='cdsave'
-cds
+__FGKEN_SAVE_CD__=~
 cdload() { if [ "$1" == "" ]; then \cd $__FGKEN_SAVE_CD__; else \cd $1; fi;}
 alias cdl='cdload'
 alias cd='cdload'
