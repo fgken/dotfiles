@@ -35,7 +35,10 @@ alias s='ls'
 alias tree='tree -C'
 
 # --- etc. ---
-alias c='clear'
+alias c='cd'
+alias u='cd ..'
+alias up='cd ..'
+alias cl='clear'
 alias grep='ack'
 alias g='ack'
 alias p='ps aux'
