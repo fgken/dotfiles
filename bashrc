@@ -34,10 +34,17 @@ alias s='ls'
 # --- tree ---
 alias tree='tree -C'
 
+# --- cd ---
+alias c='\cd'
+alias up='\cd ..'
+alias u='up'
+alias cds='__FGKEN_SAVE_CD__=`\pwd`'
+alias cs='cds'
+cds
+alias cdl='\cd __FGKEN_SAVE_CD__'
+alias cd='\cd __FGKEN_SAVE_CD__'
+
 # --- etc. ---
-alias c='cd'
-alias u='cd ..'
-alias up='cd ..'
 alias cl='clear'
 alias grep='ack'
 alias g='ack'
