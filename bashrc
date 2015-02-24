@@ -38,15 +38,19 @@ alias tree='tree -C'
 alias c='\cd'
 alias up='\cd ..'
 alias u='up'
-alias cds='__FGKEN_SAVE_CD__=`\pwd`'
-alias cs='cds'
+alias home='\cd ~'
+alias cdsave='__FGKEN_SAVE_CD__=~'
+alias cds='cdsave'
+alias cs='cdsave'
 cds
-alias cdl='\cd $__FGKEN_SAVE_CD__'
-alias cd='\cd $__FGKEN_SAVE_CD__'
+cdload() { if [ "$1" == "" ]; then \cd $__FGKEN_SAVE_CD__; else \cd $1; fi;}
+alias cdl='cdload'
+alias cd='cdload'
 # Todo: impl cds1, cds2, ...
+# Todo: impl cd1, cd2, ...
 # Todo: impl 'cdlist' to list cds1, cd2, ...
 
-# --- etc. ---
+# --- etc ---
 alias cl='clear'
 alias grep='ack'
 alias g='ack'
