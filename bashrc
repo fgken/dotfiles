@@ -72,6 +72,7 @@ notify() {
 alias cl='clear'
 alias grep='ack'
 alias g='ack'
+alias gv='ack -v'
 alias p='ps aux'
 alias t='tmux'
 alias tls='tmux ls'
@@ -106,6 +107,7 @@ if [ -e /etc/os-release ]; then
 		alias aptr='sudo apt-get remove'
 		alias grep='ack-grep'
 		alias g='ack-grep'
+		alias gv='ack-grep -v'
 	fi
 fi
 
