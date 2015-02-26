@@ -50,6 +50,18 @@ alias cd='cdload'
 # Todo: impl cd1, cd2, ...
 # Todo: impl 'cdlist' to list cds1, cd2, ...
 
+# --- notification ---
+notify() {
+	local start=`date "+%s.%N"`
+	eval $*
+	local ret=`echo $?`
+	local finish=`date "+%s.%N"`
+
+	local diff=`echo "scale=3; ($finish - $start)/1" | bc`
+	diff=`echo $diff | sed -e "s/^\./0\./g"`
+	notify-send "Finish!! - $1, ret=$ret" "`pwd`\nTime = $diff sec"
+}
+
 # --- etc ---
 alias cl='clear'
 alias grep='ack'
