@@ -60,6 +60,12 @@ notify() {
 	local diff=`echo "scale=3; ($finish - $start)/1" | bc`
 	diff=`echo $diff | sed -e "s/^\./0\./g"`
 	notify-send "Finish!! - $1, ret=$ret" "`pwd`\nTime = $diff sec"
+
+	echo ""
+	echo "=== Notification Command ==="
+	echo "Time = $diff sec"
+	echo "============================"
+	echo ""
 }
 
 # --- etc ---
