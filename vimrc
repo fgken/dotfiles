@@ -30,6 +30,7 @@ NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'grep.vim'
 "NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'Valloric/YouCompleteMe'
+NeoBundle 'wting/rust.vim'
 
 call neobundle#end()
 
