@@ -55,6 +55,15 @@ git config --global color.ui auto
 #	[
 #		"https://github.com/yasuyuky/SublimeMozcInput"
 #	]
+#
+# - Build system
+#	latex
+#	{
+#		"cmd": ["platex", "$file"],
+#		"cmd": ["dvipdfmx", "$file_base_name.dvi"],
+#		"cmd": ["evince", "$file_base_name.pdf"],
+#	}
+
 
 # For buildig qemu
 # apti zlib1g-dev libglib2.0-dev
