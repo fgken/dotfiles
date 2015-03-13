@@ -32,6 +32,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "NeoBundle 'scrooloose/syntastic'
 "NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'wting/rust.vim'
+NeoBundle 'vim-scripts/taglist.vim'
+NeoBundle 'szw/vim-tags'
 
 call neobundle#end()
 
