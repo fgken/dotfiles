@@ -24,7 +24,7 @@ alias tig='tig'
 alias gr='go run'
 
 # --- ls ---
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 alias la='ls -A'
 alias lah='ls -lah'
 alias ll='ls -alF'
@@ -89,15 +89,8 @@ if [ -e /etc/os-release ]; then
 		alias apts='apt-cache search'
 		alias aptu='sudo apt-get update'
 		alias aptr='sudo apt-get remove'
-		#alias grep='ack-grep'
+		alias grep='ack-grep'
 		alias g='ack-grep'
 		alias gv='ack-grep -v'
 	fi
-fi
-
-# ----------------------------
-# ---  --
-# ----------------------------
-if [ "$TMUX" = "" ]; then
-	tmux
 fi
