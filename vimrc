@@ -7,3 +7,4 @@ set incsearch
 set hlsearch
 set encoding=utf-8
 set expandtab
+syntax on
